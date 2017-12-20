@@ -1,6 +1,6 @@
 {
   "name": "simple-glob-observable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple Observable interface over node-glob.",
   "main": "index.js",
   "scripts": {},
@@ -8,7 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/MartyJiang/glob-observable.git"
   },
-  "keywords": ["rxjs", "node-glob"],
+  "keywords": [
+    "rxjs",
+    "node-glob"
+  ],
   "author": "jinahm",
   "license": "MIT",
   "bugs": {
