@@ -23,3 +23,13 @@ glob('./**', { ignore: 'node_modules/**' })
   )
   .subscribe(c => console.log('max size file:', c.path))
 ```
+
+### Usage
+
+_glob(pattern, [options])_
+
+### Options
+
+`sync`: perform a synchronous glob search, default is false.
+
+see [node-glob](https://github.com/isaacs/node-glob#options) for more details.
