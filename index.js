@@ -49,17 +49,3 @@ module.exports = (pattern, opts) =>
       return () => globber.abort()
     }
   })
-
-// const glob = require('glob-observable')
-const { count } = require('rxjs/operators/count')
-const { map } = require('rxjs/operators/map')
-const { max } = require('rxjs/operators/max')
-const fs = require('fs')
-
-module
-  .exports('./**')
-  .pipe(
-    map(p => ({ size: fs.statSync(p).size, path: p })),
-    max((x, y) => x.size > y.size)
-  )
-  .subscribe(c => console.log('max size file:', c))
