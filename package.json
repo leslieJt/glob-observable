@@ -8,11 +8,8 @@
     "type": "git",
     "url": "git+https://github.com/MartyJiang/glob-observable.git"
   },
-  "keywords": [
-    "rxjs",
-    "node-glob"
-  ],
-  "author": "",
+  "keywords": ["rxjs", "node-glob"],
+  "author": "jinahm",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MartyJiang/glob-observable/issues"
