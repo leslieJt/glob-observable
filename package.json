@@ -1,0 +1,32 @@
+{
+  "name": "glob-observable",
+  "version": "1.0.0",
+  "description": "A Observable interface over node-glob.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartyJiang/glob-observable.git"
+  },
+  "keywords": [
+    "rxjs",
+    "node-glob"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartyJiang/glob-observable/issues"
+  },
+  "homepage": "https://github.com/MartyJiang/glob-observable#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "rxjs": "^5.5.5",
+    "to-absolute-glob": "^2.0.2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "consistent-return": "off",
+    "no-param-reassign": "off"
+  }
+}
