@@ -1,5 +1,7 @@
 # glob-observable
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/leslieJt/glob-observable.svg)](https://greenkeeper.io/)
+
 A Simple Observable interface over node-glob.
 
 ## Example
